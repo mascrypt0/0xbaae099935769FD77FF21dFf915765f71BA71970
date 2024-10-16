@@ -15,6 +15,10 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 3. Install dependencies: **`npm install`**
 4. If you facing any error try to install dependencies manually
 
+```bash
+npm install ethers
+```
+
 **`npm install ethers`**
 
 **`npm install readline-sync`**
