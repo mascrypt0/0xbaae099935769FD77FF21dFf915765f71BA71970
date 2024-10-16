@@ -38,9 +38,9 @@ The program loops through generating the requested number of wallets, displaying
 
 After generating the wallets, the user is prompted to either generate more wallets or exit.
 
-Output Example:
-bash
-Copy code
+### Output Example: ###
+```bash
+
 ----- Ethereum Wallet Generator -----
 How many wallets would you like to create? 2
 
@@ -58,4 +58,5 @@ Wallet 2:
 -----------------------------
 Do you want to generate more wallets? (yes/no): no
 Exiting... Goodbye!
+```
 This code generates secure Ethereum wallets with the key information needed to manage and recover them. Make sure to securely store the private key and mnemonic!
