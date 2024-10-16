@@ -13,10 +13,9 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 1. Clone the repository: **`git clone https://github.com/mascrypt0/0xbaae099935769FD77FF21dFf915765f71BA71970.git`**
 2. Navigate to the project directory: **`cd 0xbaae099935769FD77FF21dFf915765f71BA71970`**
 3. Install dependencies: **`npm install`**
-4. Build the project: **`npm run build`**
-5. Start the project: **`npm start`**
-...bash
-npm init -y
+4. If you facing any error try to install dependencies manually
+...
+
 npm install ethers
 npm install readline-sync
 ...
