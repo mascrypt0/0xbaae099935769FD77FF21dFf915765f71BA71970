@@ -16,5 +16,7 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 4. If you facing any error try to install dependencies manually
 
 **`npm install ethers`**
+
 **`npm install readline-sync`**
 
+Start the project: **`node index.js`**
