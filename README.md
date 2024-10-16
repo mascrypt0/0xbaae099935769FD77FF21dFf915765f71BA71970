@@ -1,5 +1,5 @@
-# Generate ETH wallet using npm js 
-Generate an Ethereum wallet using npm, we can use the ethers.js library.
+# Generate ETH wallet using Node js 
+Generate an Ethereum wallet using node, we can use the ethers.js library.
 
 This library provides a simple and powerful way to interact with the Ethereum blockchain, including the generation of wallets. 
 
@@ -15,7 +15,7 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 3. Install dependencies: **`npm install`**
 4. Build the project: **`npm run build`**
 5. Start the project: **`npm start`**
-...
+...bash
 npm init -y
 npm install ethers
 npm install readline-sync
