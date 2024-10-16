@@ -5,9 +5,6 @@ This library provides a simple and powerful way to interact with the Ethereum bl
 
 This code generates secure Ethereum wallets with the key information needed to manage and recover them. 
 
-The generated wallet details are stored in an array and then written to the file in a formatted manner. 
-
-After generating all the wallets, the script saves the address, mnemonic, and private key for each wallet to wallet.txt file.
 ## Installation:
 ### First download ETH wallet Generator or clone it
 1. Clone the repository: **`git clone https://github.com/mascrypt0/0xbaae099935769FD77FF21dFf915765f71BA71970.git`**
@@ -60,3 +57,20 @@ Do you want to generate more wallets? (yes/no): no
 Exiting... Goodbye!
 ```
 This code generates secure Ethereum wallets with the key information needed to manage and recover them. Make sure to securely store the private key and mnemonic!
+### Wallet storage ###
+The generated wallet details are stored in an array and then written to the file in a formatted manner. 
+
+After generating all the wallets, the script saves the address, mnemonic, and private key for each wallet to wallet.txt file.
+### Output to wallet.txt: ###
+```bash
+Wallet 1:
+- Address: 0x2bFe238aEb21A580B5bA40D5F5401b407856d2c9
+- Mnemonic: purpose frost parrot meadow worry tail cage vehicle maple mechanic fox razor
+- Private Key: 0xabcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+-----------------------------
+Wallet 2:
+- Address: 0x3D7e3c2A30B8aCFCDf6b9732aFC61238e8F04191
+- Mnemonic: cliff artist quality broken panda frame myth jelly bounce rocket enjoy toe
+- Private Key: 0x123456abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789
+-----------------------------
+```
