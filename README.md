@@ -4,3 +4,8 @@ This library provides a simple and powerful way to interact with the Ethereum bl
 This code generates secure Ethereum wallets with the key information needed to manage and recover them. 
 The generated wallet details are stored in an array and then written to the file in a formatted manner. 
 After generating all the wallets, the script saves the address, mnemonic, and private key for each wallet to wallet.txt file.
+## Installation:
+### First download ETH wallet Generator
+npm init -y
+npm install ethers
+npm install readline-sync
