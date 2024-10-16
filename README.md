@@ -20,3 +20,14 @@ After generating all the wallets, the script saves the address, mnemonic, and pr
 **`npm install readline-sync`**
 
 Start the project: **`node index.js`**
+
+You may use this project as desired
+
+### How It Works: ###
+The ethers.Wallet.createRandom() function generates a random Ethereum wallet with a public address, mnemonic (12-word seed phrase), and private key.
+
+The script asks the user how many wallets to generate and outputs the address, mnemonic, and private key for each wallet.
+
+The program loops through generating the requested number of wallets, displaying the results in the console.
+
+After generating the wallets, the user is prompted to either generate more wallets or exit.
